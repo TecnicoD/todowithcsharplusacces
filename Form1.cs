@@ -20,7 +20,7 @@ namespace Prueba1
             InitializeComponent();
         }
         private int cero = 0;
-        string cadena2 = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\D\\Desktop\\Prueba1\\bin\\Debug\\Recordatorios.accdb";
+
         string cadena = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|Recordatorios.accdb";
         OleDbConnection CN;
         OleDbCommand CMANDO;
